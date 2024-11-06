@@ -8,7 +8,7 @@ Our agent trained by GEnetic-Multiagent-Selfplay (Blue) playing against agent tr
 
 ![GEMS against OpenAI](GEMS_against_OpenAI.gif)
 
-Our agent trained by Genetic-Multiagent-Selfplay with 1.5 billion steps (Blue) against agent trained by OpenAI (Bansal et al, 2017)
+Our agent trained by Genetic-Multiagent-Selfplay with 1.5 billion steps (Blue) against agent trained by OpenAI (Bansal et al, 2017) (Red)
 
 
 # Contents
