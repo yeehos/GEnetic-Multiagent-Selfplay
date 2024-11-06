@@ -12,7 +12,6 @@ Our agent trained by Genetic-Multiagent-Selfplay with 1.5 billion steps (Blue) a
 
 
 # Contents
-This is the repo for the paper was published in Conference on Robot Learning (CoRL) 2024. In this repo, we include the two following items.
 
 - Code to run the algorithm
 - Weights from a model we have trained up to 1.5 billion steps interacting with the Mujoco Environment, to be used as possible future benchmark. Against the OpenAI's model, this model wins 50.9%, ties 11.9%, loses 37.2%
@@ -20,9 +19,9 @@ This is the repo for the paper was published in Conference on Robot Learning (Co
 # To Install
 Simply install multiagent-competition (https://github.com/openai/multiagent-competition, Bansal et al, 2017) with PyTorch. This package was used with PyTorch 2.2.0
 
-# To Run the training
+# To Run The Training
 ```bash
-python main.py --train 1 --num-proc
+python main.py --train 1 
 ```
 
 # To Play Trained Model
