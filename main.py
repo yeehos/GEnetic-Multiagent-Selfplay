@@ -81,7 +81,8 @@ def train():
         tie_list = []
         lose_list = []
         
-        for i in range(n):                    
+        for i in range(n):   
+            
             scenario = get_scenario()
             
             o, r, d, ep_ret, ep_len = env.reset(scenario), 0, False, 0, 0                                    

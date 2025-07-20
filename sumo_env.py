@@ -79,9 +79,9 @@ class Sumo():
         
         self.scenario = scenario[:2]
         self.env.radius = 1
-        pos = self.env.reset(scenario=scenario)#We don't send reward data to the sumo since that part is done by CSP_env*.py
+        pos = self.env.reset(scenario=scenario)
         try:
-            pos = self.env.reset(scenario=scenario)#We don't send reward data to the sumo since that part is done by CSP_env*.py
+            pos = self.env.reset(scenario=scenario)
         except:
             print('FAILED TO RESET WITH',scenario)
             exit()
